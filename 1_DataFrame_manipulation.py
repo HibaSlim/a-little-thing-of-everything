@@ -69,5 +69,7 @@ print(result)
 data_pivot = result.pivot_table(index=['month','category'], columns='store', values= 'sales')
 print(data_pivot)
 
+#
+
 
 
